@@ -1,7 +1,11 @@
 /**
  * @author hhh
  * @date 2020/1/30 20:44
- * @Despriction
+ * @Despriction 暂时最优的的冒泡排序，三个重要变量。时间复杂度：O(n^2)，空间复杂度：O(1)
+ *    稳定排序，不会应为数字相等而改变原来数字相邻位置
+ *    1、本次轮询是否有进行元素位置交换
+ *    2、元素交换边界，为上次轮询后，最后一个元素的交换位置，本元素以后的数据为有序
+ *    3、本次轮询最后一个元素交换位置
  */
 public class Bubble {
   public static void main(String[] args) {
